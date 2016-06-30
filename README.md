@@ -15,7 +15,7 @@ this is my first project . let me try
 	
 	切换分支
 		1，先在本地fetch获取所有分支的更新
-		2，执行git branch 查看所有分支
+		2，执行git branch -a查看本地和远程的分支（不带-a则是本地分支）
 		3，执行 git checkout 分支名 即可切换
 
 	
@@ -23,4 +23,7 @@ this is my first project . let me try
 	    git branch 分支名
 	删除远程分支
 	    git push origin --delete 分支名
+	删除本地分支
+	    git branch -d new_branch
+	
 	  
