@@ -21,4 +21,6 @@ this is my first project . let me try
 	
 	新建分支
 	    git branch 分支名
+	删除远程分支
+	    git push origin --delete 分支名
 	  
